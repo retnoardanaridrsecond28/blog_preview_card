@@ -26,6 +26,11 @@ body {
     height: 470px;
     border-radius: 15px;
     padding: 20px;
+    box-shadow: 10px 10px 2px #000;
+}
+
+.card:hover {
+    box-shadow: 15px 15px 2px #000;
 }
 
 .card-img {
@@ -35,6 +40,15 @@ body {
 
 .card-content-img {
     width: 100%;
+}
+
+.font-title-content {
+    color: #000;
+}
+
+.font-title-content:hover {
+    color: #F4D04E;
+    cursor: pointer;
 }
 
 .foo-author {
