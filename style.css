@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #F4D04E;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@media (max-width: 575.98px) {
+    .container {
+        padding: 25px;
+    }
+}
+
+.card {
+    background-color: #fff;
+    width: 384px;
+    height: 470px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+}
+
+.card-content-img {
+    width: 100%;
+}
+
+.foo-author {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
