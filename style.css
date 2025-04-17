@@ -31,6 +31,10 @@ body {
 
 .card:hover {
     box-shadow: 15px 15px 2px #000;
+    .font-title-content {
+        color: #F4D04E;
+        cursor: pointer;
+    }
 }
 
 .card-img {
@@ -44,11 +48,6 @@ body {
 
 .font-title-content {
     color: #000;
-}
-
-.font-title-content:hover {
-    color: #F4D04E;
-    cursor: pointer;
 }
 
 .foo-author {
